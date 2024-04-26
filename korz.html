@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Перемещение товаров</title>
+<link rel="stylesheet" href="css/korz.css">
+<style>
+.product {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#topSection,
+#bottomSection {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+</style>
+</head>
+
+<body>
+    <div id="topSection">
+        <h2>Верхний отдел</h2>
+        <div class="product">
+        <h2>Товар 1</h2>
+        <p>Описание товара 1.</p>
+        <button onclick="moveToBottom(this)">Переместить товар в нижний отдел</button>
+    </div>
+
+    <div class="product">
+        <h2>Товар 2</h2>
+        <p>Описание товара 2.</p>
+        <button onclick="moveToBottom(this)">Переместить товар в нижний отдел</button>
+    </div>
+    <div class="product">
+        <h2>Товар 3</h2>
+        <p>Описание товара 3.</p>
+        <button onclick="moveToBottom(this)">Переместить товар в нижний отдел</button>
+    </div>
+    </div>
+
+    <div id="bottomSection">
+        <h2>Нижний отдел</h2>
+        <button onclick="moveToTop()">Купить</button>
+        <button onclick="moveToTop()">Очистить корзину</button>
+    </div>
+    <script>
+    function moveToTop() {
+        let products = document.getElementById('bottomSection').getElementsByClassName('product');
+        if (products.length > 0) {
+            let product = products[products.length - 1];
+            product.style.display = 'none';
+            document.getElementById('topSection').appendChild(product);
+            product.style.display = 'block';
+        }
+    }
+    function moveToBottom(button) {
+        let product = button.parentNode;
+        product.style.display = 'none';
+        document.getElementById('bottomSection').appendChild(product);
+        product.style.display = 'block';
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+body{
+    width: 100vh;
+    border: 1px solid #999;
+    border-radius: 2vh;
+    /* background-color: ; */
+    box-shadow: 2vh 2vh darkslateblue;
+    margin: 20vh auto;
+    padding-top: 4vh;
+
+}
+
+.tovar{
+    margin: 4vh 2vh;
+    /* margin-left: 4vh;
+    margin-bottom: 2vh; */
+    width: 90vh;
+}
+
+.hac{
+    display: flex;
+    justify-content: space-between;
+    width: 30vh;
+    align-items: center;
+}
+
+.page-of-product{
+    display: flex;
+    justify-content: start;
+    padding: 50px 10px;
+    border-radius: 3vh;
+    background: linear-gradient(to right, #ffdc82, #f7742d, #dc2c78, #515bd4);
+    box-shadow: 0 1vh #999;
+}
+
+.page-of-product > img{
+    border-radius: 0.7vh;
+    margin-left: 5vh;
+}
+
+.pictures{
+    display: flex;
+    border-radius: 3px;
+    justify-content: space-between;
+    position: relative;
+    right: 120px;
+    width: 120px;
+    height: 180px;
+    align-items: end;
+}
+
+.character{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.name-of-tovar{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.character > label{
+    color: #fff;
+    font-size: 20px;
+}
+
+li{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.buy{
+    margin-left: 8vh;
+    padding: 5px 20px;
+    height: 4vh;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 0 0 5px blue;
+    background-color: black;
+    box-shadow: inset 0 0 5px #444;
+}
+
+.click{
+    margin-left: 4vh;
+    margin-bottom: 2vh;
+    padding: 5px 20px;
+    height: 4vh;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 0 0 5px blue;
+    background-color: black;
+    box-shadow: inset 0 0 5px #444;
+}
+
+#bottomSection {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #999;
+}
+
+#bottomSection > h2{
+    width: 31vh;
+    font-family: 'Rubik One', sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #4791f1, #00c4e1, #41d617);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

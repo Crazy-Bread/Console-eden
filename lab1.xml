@@ -1,0 +1,186 @@
+<xml id="Products">     
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/css" href="css/stylexml.css"?>
+    <!---->
+    <assortyment>
+        <console>
+            <id>1</id>
+            <name>Игровая консоль PlayStation 5 Slim CFI-2000A01</name>
+            <type>Стационарная</type>
+            <memory>-</memory>
+            <carrier>Blu-ray</carrier>
+            <prise>69 990 р</prise>
+            <have>11 в наличии</have>
+        </console>
+        <console>
+            <id>2</id>
+            <name>Игровая консоль Steam Deck V004311-30</name>
+            <type>Портативная</type>
+            <memory>512 Gb</memory>
+            <carrier>-</carrier>
+            <prise>80 490 р</prise>
+            <have>3 в наличии</have>
+        </console>
+        <console>
+            <id>3</id>
+            <name>Игровая консоль PlayStation 5 Slim CFI-2016A01Y</name>
+            <type>Стационарная</type>
+            <memory>-</memory>
+            <carrier>-</carrier>
+            <prise>69 990 р</prise>
+            <have>34 в наличии</have>
+        </console>
+        <console>
+            <id>4</id>
+            <name>Игровая консоль PlayStation 5 +Кабель питания (евровилка), CFI-1200A</name>
+            <type>Стационарная</type>
+            <memory>825 Gb</memory>
+            <carrier>Blu-ray, DVD</carrier>
+            <prise>62 990 р</prise>
+            <have>25 в наличии</have>
+        </console>
+        <console>
+            <id>5</id>
+            <name>Игровая консоль Steam Deck V004287-30</name>
+            <type>Портативная</type>
+            <memory>512 Gb</memory>
+            <carrier>-</carrier>
+            <prise>80 490 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>6</id>
+            <name>Игровая консоль PlayStation 5 CFI-1208A</name>
+            <type>Стационарная</type>
+            <memory>825 Gb</memory>
+            <carrier>Blu-ray, DVD</carrier>
+            <prise>62 990 р</prise>
+            <have>5 в наличии</have>
+        </console>
+        <console>
+            <id>7</id>
+            <name>Игровая консоль Microsoft Xbox Series X +игра: Diablo IV RRT-00046</name>
+            <type>Стационарная</type>
+            <memory>1 T</memory>
+            <carrier>Blu-ray</carrier>
+            <prise>64 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>8</id>
+            <name>Игровая консоль Microsoft Xbox Series S</name>
+            <type>Стационарная</type>
+            <memory>1 T</memory>
+            <carrier>-</carrier>
+            <prise>49 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>9</id>
+            <name>Игровая консоль Steam Deck V004281-40</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>-</carrier>
+            <prise>57 990 р</prise>
+            <have>4 в наличии</have>
+        </console>
+        <console>
+            <id>10</id>
+            <name>Игровая консоль Nintendo Switch OLED Pokemon Skarlet and Violet Edition</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>Картридж</carrier>
+            <prise>40 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>11</id>
+            <name>Игровая консоль Nintendo Switch OLED Mario Red Edition</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>Картридж</carrier>
+            <prise>40 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>12</id>
+            <name>Игровая консоль Nintendo Switch OLED Neon 64Gb</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>Картридж</carrier>
+            <prise>38 990 р</prise>
+            <have>1 в наличии</have>
+        </console>
+        <console>
+            <id>13</id>
+            <name>Игровая консоль Steam Deck V004286-50</name>
+            <type>Портативная</type>
+            <memory>256 Gb</memory>
+            <carrier>-</carrier>
+            <prise>69 490 р</prise>
+            <have>3 в наличии</have>
+        </console>
+        <console>
+            <id>14</id>
+            <name>Игровая консоль Nintendo Switch OLED White</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>Картридж</carrier>
+            <prise>38 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>15</id>
+            <name>Игровая консоль Nintendo Switch OLED Splatoon 3 Edition</name>
+            <type>Портативная</type>
+            <memory>64 Gb</memory>
+            <carrier>Картридж</carrier>
+            <prise>40 990 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>16</id>
+            <name>Игровая консоль Steam Deck V004284-30</name>
+            <type>Портативная</type>
+            <memory>256 Gb</memory>
+            <carrier>-</carrier>
+            <prise>69 490 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>17</id>
+            <name>Игровая консоль RETRO GENESIS +450 игр +второй контроллер, Dinotronix MixHD 1080 FullHD</name>
+            <type>Стационарная</type>
+            <memory>-</memory>
+            <carrier>-</carrier>
+            <prise>7 299 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>18</id>
+            <name>Игровая консоль RETRO GENESIS +450 игр +второй контроллер, Dinotronix MixHD</name>
+            <type>Стационарная</type>
+            <carrier>Картридж</carrier>
+            <prise>6 130 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>19</id>
+            <name>Игровая консоль RETRO GENESIS +225 игр SEGA Retro Genesis HD Ultra</name>
+            <type>Стационарная</type>
+            <memory>-</memory>
+            <carrier>Картридж</carrier>
+            <prise>5 799 р</prise>
+            <have>0 в наличии</have>
+        </console>
+        <console>
+            <id>20</id>
+            <name>Игровая консоль RETRO GENESIS HD Ultra + 150 игр</name>
+            <type>Стационарная</type>
+            <memory>-</memory>
+            <carrier>-</carrier>
+            <prise>5 399 р</prise>
+            <have>0 в наличии</have>
+        </console>
+    </assortyment>
+</xml>

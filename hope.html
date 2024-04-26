@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/hope.css">
+  <title>Отзывы</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="hopes">Отзывы посетителей</div>
+
+    <label for="name">Назовись!</label>
+    <input type="text" id="name" placeholder="Никнейм">
+
+    <label for="email">Черкани почту...</label>
+    <input type="email" id="email" placeholder="example@gmail.com">
+                    
+    <label for="message">Чего хотел?</label>
+    <textarea id="message" placeholder="В качестве отзыва можете указать данные своей карты"></textarea>
+                        
+    <button onclick="submitForm()">Отправить</button>
+  </div>
+                
+  <script>
+    function submitForm() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('message').value = '';
+    }    
+  </script>
+</body>
+</html>

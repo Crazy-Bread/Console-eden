@@ -1,0 +1,16 @@
+*{
+    border: 1px solid purple;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: block;
+    text-align: start;
+    margin: 0 auto;
+    width: 50%;
+}
+
+console{
+    border: 3px solid rgb(52, 3, 52);
+}
